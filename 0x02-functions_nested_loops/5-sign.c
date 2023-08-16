@@ -25,5 +25,5 @@ int print_sign(int n)
 		return (-1);
 	}
 
-	return (0); // Default return statement
+	return (0); 
 }
