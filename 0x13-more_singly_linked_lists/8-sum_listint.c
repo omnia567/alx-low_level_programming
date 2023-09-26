@@ -8,14 +8,14 @@
  */
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
-	listint_t *temp = head;
+	int sums = 0;
+	listint_t *tempp = head;
 
-	while (temp)
+	while (tempp)
 	{
-		sum += temp->n;
-		temp = temp->next;
+		sums += tempp->n;
+		tempp = tempp->next;
 	}
 
-	return (sum);
+	return (sums);
 }
