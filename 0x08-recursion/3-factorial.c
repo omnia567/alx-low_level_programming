@@ -4,13 +4,13 @@
  * factorial - returns the factorial of a number
  * @n: number to return the factorial from
  *
- * Return: factorial of n
+ * Return: factorial of x
  */
-int factorial(int n)
+int factorial(int x)
 {
-	if (n < 0)
+	if (x < 0)
 		return (-1);
-	if (n == 0)
+	if (x == 0)
 		return (1);
-	return (n * factorial(n - 1));
+	return (x * factorial(x - 1));
 }
